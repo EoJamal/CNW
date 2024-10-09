@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura total da janela */
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Espaçamento no cabeçalho */
+    position: absolute; /* Permite que o cabeçalho fique fixo no topo */
+    width: 100%; /* Largura total */
+    top: 0; /* Posiciona no topo da página */
+    z-index: 1; /* Fica acima da imagem */
+}
+.button-container {
+    display: flex;
+    gap: 100px; /* Espaço entre os botões */
+}
+.btn {
+    color: white; /* Cor do texto dos botões */
+}
+img {
+    margin-top: 100px; /* Espaçamento acima da imagem */
+}
+footer {
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+    display: flex; /* Usa flexbox para organizar as informações */
+    justify-content: center; /* Centraliza as informações no rodapé */
+    gap: 40px; /* Espaço entre as informações */
+    background-color: #1E90FF; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+}
